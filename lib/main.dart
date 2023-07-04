@@ -35,8 +35,9 @@ class _PageState extends State<Page> {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
       SystemUiOverlayStyle(
-        statusBarColor: Colors
-            .transparent, // Set the color of the status bar// Set the color of the navigation bar
+        statusBarColor: Colors.transparent,
+        systemNavigationBarColor:
+            Color(0xFF0B726D), // Set the color of the status bar
       ),
     );
     return Scaffold(
